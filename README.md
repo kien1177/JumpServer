@@ -13,14 +13,14 @@ JumpServer is an open-source **Privileged Access Management (PAM)** system that 
 ---
 
 ## 📚 Table of Contents
-- [1. Introduction](#1-introduction)
-- [2. Architecture Overview](#2-architecture-overview)
-- [3. Environment Preparation](#3-environment-preparation)
-- [4. Installing JumpServer](#4-installing-jumpserver)
-- [5. Basic Configuration](#5-basic-configuration)
-- [6. Testing the System](#6-testing-the-system)
-- [7. Troubleshooting](#7-troubleshooting)
-- [8. References](#8-references)
+1. [Introduction](docs/introduction.md)
+2. [Architecture Overview](docs/architecture.md)
+3. [Environment Preparation](docs/environment-preparation.md)
+4. [Installing JumpServer](docs/installing-jumpserver.md)
+5. [Basic Configuration](docs/basic-configuration.md)
+6. [Testing the System](docs/testing-system.md)
+7. [Troubleshooting](docs/troubleshooting.md)
+8. [References](docs/references.md)
 
 ---
 
