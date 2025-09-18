@@ -21,3 +21,8 @@ This diagram shows the basic JumpServer architecture and how components interact
 Below is an example of a session running inside JumpServer.
 
 ![Console Moving Example](docs/images/moving-console.png)
+
+## Deployment Architecture Diagram
+Below is a deployment architecture diagram.
+
+![Deployment Architecture Diagram](docs/images/deployment architecture diagram.png)
