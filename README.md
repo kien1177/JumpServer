@@ -25,4 +25,4 @@ Below is an example of a session running inside JumpServer.
 ## Deployment Architecture Diagram
 Below is a deployment architecture diagram.
 
-![Deployment Architecture Diagram](docs/images/deployment architecture diagram.png)
+![Deployment Architecture Diagram](docs/images/deployment-architecture-diagram.png)
