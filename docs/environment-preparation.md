@@ -33,6 +33,31 @@ This page helps you prepare the infrastructure and software required **before** 
 sudo apt-get update
 sudo apt-get install -y chrony
 sudo systemctl enable --now chrony
+```
 
 **Install and unzip JumpServer:**
+```bash
+cd /opt
+sudo wget https://github.com/jumpserver/installer/releases/download/v4.10.1/jumpserver-installer-v4.10.1.tar.gz
+sudo tar -xzf jumpserver-installer-v4.10.1.tar.gz
+cd jumpserver-installer-v4.10.1
+```
+
+**Run file jumpserver-installer-v4.10.1**
+```
+sudo ./jmsctl.sh install 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
