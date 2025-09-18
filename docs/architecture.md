@@ -1,3 +1,9 @@
+---
+layout: default
+title: Architecture Overview
+nav_order: 2
+---
+
 # Architecture Overview
 
 JumpServer consists of several core components:
