@@ -1,17 +1,14 @@
----
-layout: home
-title: JumpServer Documentation
-nav_order: 1
----
+# JumpServer Documentation
 
-Welcome! Use the sidebar or the quick links below to jump to any section.
+Welcome to the official JumpServer documentation site.  
+This guide will help you install, configure, and manage JumpServer step-by-step.
 
-## Quick links
-1. [Introduction](/docs/introduction)
-2. [Architecture Overview](/docs/architecture)
-3. [Environment Preparation](/docs/environment-preparation)
-4. [Installing JumpServer](/docs/installing-jumpserver)
-5. [Basic Configuration](/docs/basic-configuration)
-6. [Testing the System](/docs/testingsystem) <!-- or /docs/testing-system if that's your exact filename -->
-7. [Troubleshooting](/docs/troubleshooting)
-8. [References](/docs/references)
+## Table of Contents
+1. [Introduction](introduction.md)
+2. [Architecture Overview](architecture.md)
+3. [Environment Preparation](environment-preparation.md)
+4. [Installing JumpServer](installing-jumpserver.md)
+5. [Basic Configuration](basic-configuration.md)
+6. [Testing the System](testing-system.md)
+7. [Troubleshooting](troubleshooting.md)
+8. [References](references.md)
