@@ -24,29 +24,6 @@ JumpServer is an open-source **Privileged Access Management (PAM)** system that 
 
 ---
 
-## 1. Introduction
-JumpServer enables you to:
-- Centrally manage **access accounts**.
-- Record **all user sessions** for auditing.
-- Protect systems with a **Zero Trust** access model.
-- Support SSH, RDP, and databases (MySQL, MSSQL, PostgreSQL, ...).
-
-**Official website:** [https://jumpserver.org/](https://jumpserver.org/)
-
----
-
-## 2. Architecture Overview
-Key components:
-- **Core**: Central management and control component.
-- **Koko**: Proxy that handles SSH/RDP connections.
-- **Guacamole**: Web gateway for RDP/VNC.
-- **Web**: Administration and user interface.
-- **Luna**: Session recording and storage.
-
-> **Architecture diagram:**
-
-![JumpServer Architecture](docs/images/jump-server.png)
-
 ## Deployment Architecture Diagram
 Below is a deployment architecture diagram.
 
@@ -56,3 +33,4 @@ Below is a deployment architecture diagram.
 Below is an example of a session running inside JumpServer.
 
 ![Console Moving Example](docs/images/moving-console.png)
+------
