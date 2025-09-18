@@ -1,3 +1,15 @@
 title: JumpServer Documentation
 description: Guide to install and configure JumpServer
 theme: jekyll-theme-cayman
+
+title: JumpServer Documentation
+description: Guide to install and configure JumpServer
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+search_enabled: true
+logo: /docs/images/jump-server.png
+aux_links:
+  "View on GitHub":
+    - "https://github.com/kien1177/JumpServer"
