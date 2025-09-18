@@ -25,6 +25,7 @@ This page helps you prepare the infrastructure and software required **before** 
 - **RAM:** 4 GB (minimum), 8 GB recommended
 - **Disk:** 30 GB free (logs & session recordings may require more)
 - **Network:** Stable LAN access to your assets (SSH/RDP/DB)
+-**Tool:** PuTTY, Remote Desktop Protocol (RDP), DB Client (pgAdmin, HeidiSQL), web (Chrome/Firefox)
 
 **Time synchronization (strongly recommended):**
 ```bash
@@ -32,4 +33,6 @@ This page helps you prepare the infrastructure and software required **before** 
 sudo apt-get update
 sudo apt-get install -y chrony
 sudo systemctl enable --now chrony
+
+
 
