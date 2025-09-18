@@ -1,4 +1,12 @@
-## 1 Install System (JumpServer Host)
+# Install JumpServer
+
+This page helps you installing JumpServer.
+
+> **Goal:** Have a clean OS, a clear network plan (IPs, ports), Docker/Compose installed, and working SSH/RDP access to your target assets.
+
+---
+
+## 1) Install System (JumpServer Host)
 
 **Install and unzip JumpServer:**
 ```bash
