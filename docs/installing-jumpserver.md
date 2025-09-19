@@ -63,4 +63,4 @@ sudo apt install openssh-server -y
 sudo systemctl enable ssh
 sudo systemctl start ssh
 ```
-![Stastus](docs/images/pic1.png)
+![Stastus](images/pic1.png)
