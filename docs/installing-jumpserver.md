@@ -64,3 +64,31 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 ```
 ![Stastus](images/pic1.png)
+
+**Configure firewall (UFW)**
+We open ports for SSH and HTTP:
+```bash
+sudo ufw allow sshS 
+sudo ufw allow http 
+sudo ufw enable
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
