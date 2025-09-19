@@ -1,8 +1,3 @@
----
-layout: default
-title: Architecture Overview
-nav_order: 2
----
 
 # Architecture Overview
 
