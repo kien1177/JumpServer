@@ -136,6 +136,32 @@ admin → tick Full Control.
 - **Tester → only tick Read & execute, List folder contents, Read.**
 - **Dev → tick Modify and Write (equivalent to Read/Write).**
 - **Admin → tick Full Control.**
+![Stastus](images/pic13.png)
+
+**Configure firewall (Windows Firewall)**
+- Press Win + R → type wf.msc → Enter.
+- In the Windows Defender Firewall with Advanced Security window → select Inbound Rules.
+- Enable rules:
+**Remote Desktop (TCP-In) → allow RDP (TCP/3389).**
+**File and Printer Sharing (SMB-In) → allows file sharing (TCP/445).**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
