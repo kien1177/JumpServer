@@ -76,7 +76,18 @@ sudo ufw allow sshS
 sudo ufw allow http 
 sudo ufw enable
 ```
+![Stastus](images/pic2.png)
 
+**Deploy test web application**
+To verify the web service is working, install Nginx and create a basic HTML page:
+```bash
+sudo apt install nginx -y 
+echo "<h1>Web Service - Ubuntu Server</h1>" | sudo tee /var/www/html/index.html 
+sudo systemctl enable nginx 
+sudo systemctl start nginx
+```
+- Once deployed, Nginx will listen on port 80.
+- Going to http://192.168.214.140/ in a browser will display a test message:
 
 
 
