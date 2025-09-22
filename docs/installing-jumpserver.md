@@ -22,10 +22,10 @@ sudo ./jmsctl.sh install
 ```
 
 **During installation, select the following:**
-Persistent directory: y → /data/jumpserver(create directory if not exist: sudo mkdir -p /data/jumpserver).
-Using external PostgreSQL? → n (use built-in).
-Select Redis Engine? → enter "redis".
-Customize external port? → n (use default port 80).
+- Persistent directory: y → /data/jumpserver(create directory if not exist: sudo mkdir -p /data/jumpserver).
+- Using external PostgreSQL? → n (use built-in).
+- Select Redis Engine? → enter "redis".
+- Customize external port? → n (use default port 80).
 
 ![Stastus](images/pic4.png)
 
