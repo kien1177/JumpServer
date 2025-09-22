@@ -144,7 +144,11 @@ admin → tick Full Control.
 - Enable rules:  
 **Remote Desktop (TCP-In) → allow RDP (TCP/3389).**  
 **File and Printer Sharing (SMB-In) → allows file sharing (TCP/445).**
-
+- Limit the connection scope:  
+Right click on the rule → Properties → Scope tab.  
+In the Remote IP address section → select These IP addresses.  
+Add the JumpServer IP address (192.168.214.138).  
+- Click OK to save.
 
 
 
