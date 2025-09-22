@@ -12,7 +12,7 @@ url: https://kien1177.github.io/JumpServer/
 baseurl: "/JumpServer"
 
 search_enabled: true
-logo: /docs/images/jump-server.png
+logo: /docs/images/avt.png
 aux_links:
   "View on GitHub":
     - "https://github.com/kien1177/JumpServer"
