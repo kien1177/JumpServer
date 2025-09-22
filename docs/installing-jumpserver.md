@@ -102,13 +102,30 @@ sudo systemctl start nginx
 - Open Server Manager → Local Server → find Remote Desktop → select Enable.
 - In the System Properties window, select Allow remote connections to this computer.
 - By default, the RDP service will listen on TCP port 3389.
-
 ![Stastus](images/pic6.png)
+- Open Services.msc → make sure Remote Desktop Services is in Running state.
+→ The server is ready for remote connection via JumpServer.
+![Stastus](images/pic7.png)
 
+**Create a local user account (Standalone – Local Users)**
+- Go to Computer Management → Local Users and Groups → Users → New User…
+- For example, create 3 accounts: tester, dev, admin.
+![Stastus](images/pic8.png)
+- Add tester and dev to the Remote Desktop Users group to allow RDP login.
+![Stastus](images/pic9.png)
+- Add admin to Administrators group to have full administrative rights
+![Stastus](images/pci10.png)
 
-
-
-
+**Create a Shared Folder**
+- Create folder: Open File Explorer → drive C: → create folder "SharedFolder".
+- Right click → Properties → Sharing tab → Select Advanced Sharing → tick Share this folder.
+- Select Permissions to assign permissions:
+→Delete the default Everyone permission (if any).
+→Add users and assign permissions one by one:
+→tester → tick Read.
+→dev → tick Change (equivalent to Read/Write).
+→admin → tick Full Control.
+Click OK to save.
 
 
 
