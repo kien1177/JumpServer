@@ -92,11 +92,11 @@ sudo systemctl start nginx
  ## 5) Config Windows Server(File service)
 - Objective: Deploy Windows Server B to provide File Service and Remote Desktop Protocol (RDP) to users in the system. All access is configured to go through JumpServer only, to ensure control, monitoring and enhance the security of the system.
 - Implementation content:
--- Enable and enable Remote Desktop (RDP) service on port TCP/3389.
--- Create and manage local user accounts, assign permissions by role.
--- Set up shared folders, apply detailed permission policies for each user.
--- Configure firewall (Windows Firewall) to only allow JumpServer to access RDP and SMB (TCP/445) services.
--- Perform testing to confirm that the system operates correctly as required and ensures security.
+   Enable and enable Remote Desktop (RDP) service on port TCP/3389.
+   Create and manage local user accounts, assign permissions by role.
+   Set up shared folders, apply detailed permission policies for each user.
+   Configure firewall (Windows Firewall) to only allow JumpServer to access RDP and SMB (TCP/445) services.
+   Perform testing to confirm that the system operates correctly as required and ensures security.
 
 
 
