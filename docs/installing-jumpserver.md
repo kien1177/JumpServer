@@ -27,6 +27,8 @@ Using external PostgreSQL? → n (use built-in).
 Select Redis Engine? → enter "redis".
 Customize external port? → n (use default port 80).
 
+![Stastus](images/pic4.png)
+
 **System startup**
 ```bash
 sudo ./jmsctl.sh start
