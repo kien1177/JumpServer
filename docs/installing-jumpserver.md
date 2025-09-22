@@ -49,6 +49,8 @@ sudo ./jmsctl.sh start
 ```bash
 sudo ./jmsctl.sh status
 ```
+![Stastus](images/pic5.png)
+
 **Access the Web UI interface using jumpserver host to test**
 ip: http://127.0.0.1
 deauft account:
