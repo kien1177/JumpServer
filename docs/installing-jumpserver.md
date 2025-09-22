@@ -104,7 +104,7 @@ sudo systemctl start nginx
 - By default, the RDP service will listen on TCP port 3389.
 ![Stastus](images/pic6.png)
 - Open Services.msc → make sure Remote Desktop Services is in Running state.
-→ The server is ready for remote connection via JumpServer.
+- The server is ready for remote connection via JumpServer.
 ![Stastus](images/pic7.png)
 
 **Create a local user account (Standalone – Local Users)**
