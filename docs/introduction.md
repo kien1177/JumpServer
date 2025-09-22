@@ -43,18 +43,5 @@ By implementing JumpServer, organizations can **simplify operations**, **increas
 
 ---
 
-## Architecture Overview
-
-JumpServer uses a **gateway-based architecture** where all traffic to target systems passes through a secure bastion host.  
-This design ensures:
-
-- No direct access to sensitive servers.
-- Encrypted traffic with detailed logging.
-- Central enforcement of access policies.
-
-![Architecture Diagram](architecture.png)
-
----
-
 ## Official Website
 For more details, visit: [https://jumpserver.org/](https://jumpserver.org/)
