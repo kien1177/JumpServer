@@ -56,7 +56,7 @@ sudo ./jmsctl.sh status
 - deauft account:
 - username: admin
 - password: ChangeMe
-**Note: The system requires you to change your password immediately after the first login.**
+- **Note: The system requires you to change your password immediately after the first login.**
 
 ## 4) Config (Linux WebService)
 
