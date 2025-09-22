@@ -119,17 +119,23 @@ sudo systemctl start nginx
 **Create a Shared Folder**
 - Create folder: Open File Explorer → drive C: → create folder "SharedFolder".
 - Right click → Properties → Sharing tab → Select Advanced Sharing → tick Share this folder.
+![Stastus](images/pic11.png)
 - Select Permissions to assign permissions:
-→Delete the default Everyone permission (if any).
-→Add users and assign permissions one by one:
-→tester → tick Read.
-→dev → tick Change (equivalent to Read/Write).
-→admin → tick Full Control.
-Click OK to save.
+Delete the default Everyone permission (if any).
+Add users and assign permissions one by one:
+tester → tick Read.
+dev → tick Change (equivalent to Read/Write).
+admin → tick Full Control.
+- Click OK to save.
+![Stastus](images/pic12.png)
 
+- Configure NTFS Permission (required)
+- In the Properties window → switch to the Security tab.
+- Click Edit → Add → to add tester, dev, admin.
 
-
-
+**tester → only tick Read & execute, List folder contents, Read.**
+**dev → tick Modify and Write (equivalent to Read/Write).**
+**admin → tick Full Control.**
 
 
 
