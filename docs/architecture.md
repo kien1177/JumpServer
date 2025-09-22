@@ -1,5 +1,4 @@
-## Diagram
-Below is a simplified architecture diagram showing how components interact.
+
 # Architecture Diagram
 This section provides a detailed visual representation of how JumpServer components interact within the system.
 ![JumpServer Architecture](images/jump-server.png)
