@@ -57,8 +57,6 @@ chronyc tracking
 ---
 
 ## 3. **Network Preparation**
-```markdown
-## 3) Network Preparation
 
 Proper network configuration is essential for JumpServer to function correctly.
 
