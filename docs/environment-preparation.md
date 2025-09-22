@@ -89,7 +89,26 @@ sudo ufw allow 3389/tcp
 sudo ufw allow 445/tcp
 sudo ufw allow 5432/tcp
 sudo ufw enable
+```
 
+---
+
+## 4) Docker Installation (JumpServer Host)
+
+JumpServer components (Core, Koko, Luna) run inside Docker containers.
+
+### Install Docker & Docker Compose
+
+```bash
+sudo apt-get update
+sudo apt-get install -y docker.io docker-compose
+sudo systemctl enable --now docker
+```
+### Verify installation:
+```bash
+docker --version
+docker-compose --version
+```
 
 
 
