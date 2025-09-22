@@ -133,9 +133,9 @@ admin → tick Full Control.
 - In the Properties window → switch to the Security tab.
 - Click Edit → Add → to add tester, dev, admin.
 
-**tester → only tick Read & execute, List folder contents, Read.**
-**dev → tick Modify and Write (equivalent to Read/Write).**
-**admin → tick Full Control.**
+- **Tester → only tick Read & execute, List folder contents, Read.**
+- **Dev → tick Modify and Write (equivalent to Read/Write).**
+- **Admin → tick Full Control.**
 
 
 
