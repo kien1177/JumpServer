@@ -141,7 +141,7 @@ admin → tick Full Control.
 **Configure firewall (Windows Firewall)**
 - Press Win + R → type wf.msc → Enter.
 - In the Windows Defender Firewall with Advanced Security window → select Inbound Rules.
-- Enable rules:
+- Enable rules:  
 **Remote Desktop (TCP-In) → allow RDP (TCP/3389).**  
 **File and Printer Sharing (SMB-In) → allows file sharing (TCP/445).**
 
