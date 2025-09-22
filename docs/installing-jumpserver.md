@@ -91,12 +91,12 @@ sudo systemctl start nginx
 
  ## 5) Config Windows Server(File service)
 - Objective: Deploy Windows Server B to provide File Service and Remote Desktop Protocol (RDP) to users in the system. All access is configured to go through JumpServer only, to ensure control, monitoring and enhance the security of the system.
-- Implementation content:
-   Enable and enable Remote Desktop (RDP) service on port TCP/3389.
-   Create and manage local user accounts, assign permissions by role.
-   Set up shared folders, apply detailed permission policies for each user.
-   Configure firewall (Windows Firewall) to only allow JumpServer to access RDP and SMB (TCP/445) services.
-   Perform testing to confirm that the system operates correctly as required and ensures security.
+- Implementation content:  
+   Enable and enable Remote Desktop (RDP) service on port TCP/3389.  
+   Create and manage local user accounts, assign permissions by role.  
+   Set up shared folders, apply detailed permission policies for each user.  
+   Configure firewall (Windows Firewall) to only allow JumpServer to access RDP and SMB (TCP/445) services.  
+   Perform testing to confirm that the system operates correctly as required and ensures security.  
 
 **Enable Remote Desktop (RDP)**
 - Open Server Manager → Local Server → find Remote Desktop → select Enable.
@@ -120,12 +120,12 @@ sudo systemctl start nginx
 - Create folder: Open File Explorer → drive C: → create folder "SharedFolder".
 - Right click → Properties → Sharing tab → Select Advanced Sharing → tick Share this folder.
 ![Stastus](images/pic11.png)
-- Select Permissions to assign permissions:
-Delete the default Everyone permission (if any).
-Add users and assign permissions one by one:
-tester → tick Read.
-dev → tick Change (equivalent to Read/Write).
-admin → tick Full Control.
+- Select Permissions to assign permissions:  
+Delete the default Everyone permission (if any).  
+Add users and assign permissions one by one:  
+tester → tick Read.  
+dev → tick Change (equivalent to Read/Write).  
+admin → tick Full Control.  
 - Click OK to save.
 ![Stastus](images/pic12.png)
 
