@@ -103,6 +103,7 @@ sudo systemctl start nginx
 - In the System Properties window, select Allow remote connections to this computer.
 - By default, the RDP service will listen on TCP port 3389.
 
+![Stastus](images/pic6.png)
 
 
 
