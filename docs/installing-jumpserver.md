@@ -52,10 +52,10 @@ sudo ./jmsctl.sh status
 ![Stastus](images/pic5.png)
 
 **Access the Web UI interface using jumpserver host to test**
-ip: http://127.0.0.1
-deauft account:
-username: admin
-password: ChangeMe
+- ip: http://127.0.0.1
+- deauft account:
+- username: admin
+- password: ChangeMe
 **Note: The system requires you to change your password immediately after the first login.**
 
 ## 4) Config (Linux WebService)
