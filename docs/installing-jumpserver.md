@@ -98,7 +98,10 @@ sudo systemctl start nginx
    Configure firewall (Windows Firewall) to only allow JumpServer to access RDP and SMB (TCP/445) services.
    Perform testing to confirm that the system operates correctly as required and ensures security.
 
-
+**Enable Remote Desktop (RDP)**
+- Open Server Manager → Local Server → find Remote Desktop → select Enable.
+- In the System Properties window, select Allow remote connections to this computer.
+- By default, the RDP service will listen on TCP port 3389.
 
 
 
