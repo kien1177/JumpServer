@@ -1,4 +1,8 @@
-
+## Diagram
+Below is a simplified architecture diagram showing how components interact.
+# Architecture Diagram
+This section provides a detailed visual representation of how JumpServer components interact within the system.
+![JumpServer Architecture](images/jump-server.png)
 # Architecture Overview
 
 JumpServer consists of several core components:
@@ -10,18 +14,6 @@ JumpServer consists of several core components:
 | **Guacamole** | Web gateway for RDP and VNC connections.   |
 | **Web**       | User interface for admins and users.       |
 | **Luna**      | Session recording and storage.             |
-
-## Diagram
-Below is a simplified architecture diagram showing how components interact.
-
-![JumpServer Architecture](images/jump-server.png)
-
-# Architecture Diagram
-
-This section provides a detailed visual representation of how JumpServer components interact within the system.
-
-## Overview
-The diagram below illustrates the flow of traffic and the relationship between various core components such as **Core**, **Koko**, **Guacamole**, **Web**, and **Luna**.
 
 Each component plays a specific role:
 - **Core**: Centralized management and control.
@@ -47,4 +39,3 @@ Below is the simplified architecture diagram showing component interactions:
 
 ---
 
-For more details, refer to the main [Architecture Overview](architecture.md).
