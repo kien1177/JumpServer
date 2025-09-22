@@ -24,7 +24,7 @@ Each component plays a specific role:
 ## Simplified Diagram
 Below is the simplified architecture diagram showing component interactions:
 
-![JumpServer Architecture Diagram](images/jumpserver-architecture.png)
+![JumpServer Architecture Diagram](images/pic15.png)
 
 > **Note:**  
 > - The diagram shows a high-level view and may be simplified.  
