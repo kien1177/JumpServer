@@ -1,7 +1,11 @@
 # 📚 References – PAM JumpServer
 
 ## 1. Official Documentation
--[SercurityZone](https://securityzone.vn/f/ly-thuyet-545/)
+- [SercurityZone](https://securityzone.vn/f/ly-thuyet-545/)
+- [JumpServer](https://heimdalsecurity.com/blog/what-is-a-jump-server/) - Livia Gyongyosi
+- [JumpServer](https://www.jumpserver.com/docs) – Christian Bauer , Gavin King
+- [PAM](https://www.sentinelone.com/cybersecurity-101/identity-security/what-is-privileged-access-management-pam/) – SentinelOne
+- [JumpServer Community](https://www.youtube.com/watch?v=JovuzQEk94w) – JumpServer Pam
 
 ## 4. Related Tools
 - [Teleport](https://goteleport.com/) – Nền tảng PAM & remote access.  
