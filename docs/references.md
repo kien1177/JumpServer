@@ -1,18 +1,7 @@
 # 📚 References – PAM JumpServer
 
 ## 1. Official Documentation
-- [JumpServer Official Docs](https://jumpserver.org/docs/) – Hướng dẫn cài đặt, cấu hình, và quản trị.
-- [JumpServer GitHub Repository](https://github.com/jumpserver/jumpserver) – Source code và issues chính thức.
-
-## 2. Security & PAM Concepts
-- Gartner, *Privileged Access Management (PAM) Market Guide* – Khái niệm, xu hướng và best practices về PAM.  
-- NIST SP 800-53: *Security and Privacy Controls for Information Systems and Organizations* – Chuẩn kiểm soát an ninh được sử dụng rộng rãi.  
-- OWASP: [Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) – Hướng dẫn chi tiết về cơ chế xác thực an toàn.  
-
-## 3. Linux & System Hardening
-- CIS Benchmarks: *Linux Server Security Standards* – Bộ chuẩn cấu hình bảo mật hệ điều hành.  
-- RedHat – *SELinux & Security Policies* – Chính sách và cấu hình SELinux.  
-- Ubuntu Server Hardening Guide – Các bước tăng cường bảo mật trên hệ thống Ubuntu.  
+-[SercurityZone](https://securityzone.vn/f/ly-thuyet-545/)
 
 ## 4. Related Tools
 - [Teleport](https://goteleport.com/) – Nền tảng PAM & remote access.  
